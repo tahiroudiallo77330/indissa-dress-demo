@@ -78,7 +78,7 @@ export function Header({ logo = "circle" }: { logo?: HeaderLogo }) {
           </div>
         </div>
         {menuOpen && (
-          <div className="md:hidden bg-[#fef9f1] border-t border-[#e7e2da] px-8 py-6 flex flex-col gap-5">
+          <div className="bg-[#fef9f1] border-t border-[#e7e2da] px-8 py-6 flex flex-col gap-5">
             {textLinks.map((l) => (
               <Link key={l.label} href={l.href} onClick={() => setMenuOpen(false)} className="text-[13px] text-[#1d1c17] hover:text-[#c4a882] transition-colors">
                 {l.label}
@@ -115,7 +115,7 @@ export function Header({ logo = "circle" }: { logo?: HeaderLogo }) {
         </div>
       </div>
       {menuOpen && (
-        <div className="md:hidden bg-[#fef9f1] border-t border-[#e7e2da] px-8 py-6 flex flex-col gap-5">
+        <div className="bg-[#fef9f1] border-t border-[#e7e2da] px-8 py-6 flex flex-col gap-5">
           {[
             { href: "/collections", label: "Créations" },
             { href: "/la-maison", label: "L'Atelier" },
