@@ -1,0 +1,297 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - img [ref=e4]
+      - text: Discret Pour Pl'Hair
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "Prestations" [ref=e10] [cursor=pointer]:
+          - /url: "#services"
+      - listitem [ref=e11]:
+        - link "Produits" [ref=e12] [cursor=pointer]:
+          - /url: "#produits"
+      - listitem [ref=e13]:
+        - link "Galerie" [ref=e14] [cursor=pointer]:
+          - /url: "#galerie"
+      - listitem [ref=e15]:
+        - link "Contact" [ref=e16] [cursor=pointer]:
+          - /url: "#rdv"
+    - link "Réserver" [ref=e17] [cursor=pointer]:
+      - /url: "#rdv"
+  - generic [ref=e18]:
+    - img "Façade du salon Discret Pour Pl'Hair" [ref=e20]
+    - generic [ref=e22]:
+      - generic [ref=e25]: Ouvert le lundi
+      - paragraph [ref=e26]: Salon de Coiffure Femme & Homme
+      - heading "Discret Pour Pl'Hair" [level=1] [ref=e27]:
+        - generic [ref=e29]: Discret Pour
+        - emphasis [ref=e32]: Pl'Hair
+      - paragraph [ref=e33]: L'art de sublimer votre chevelure — pour elle & pour lui
+      - generic [ref=e34]:
+        - link "Prendre rendez-vous" [ref=e35] [cursor=pointer]:
+          - /url: "#reservation"
+        - link "01.60.28.26.32" [ref=e36] [cursor=pointer]:
+          - /url: tel:0160282632
+    - generic [ref=e38]: Découvrir
+  - generic [ref=e41]:
+    - generic [ref=e42]: Notre Philosophie
+    - paragraph [ref=e43]:
+      - text: "\"Un nouveau souffle,"
+      - emphasis [ref=e44]: la même excellence"
+    - paragraph [ref=e45]: Sous une nouvelle direction, le salon vous accueille dans un espace chaleureux et raffiné. Chaque femme mérite un regard unique, une expertise sur mesure.
+  - generic [ref=e47]:
+    - img "Intérieur élégant du salon — fauteuils velours bleu" [ref=e50]
+    - generic [ref=e51]:
+      - generic [ref=e52]: Le Salon
+      - heading "Un espace pensé pour vous" [level=2] [ref=e53]:
+        - text: Un espace pensé
+        - emphasis [ref=e54]: pour vous
+      - paragraph [ref=e55]: Situé au cœur de la ville, notre salon vous invite à vivre un moment de détente et de beauté. L'ambiance soignée, les fauteuils en velours bleu nuit et la lumière naturelle créent un cadre élégant et apaisant.
+      - paragraph [ref=e56]: "Notre équipe de coiffeurs passionnés vous accompagne à chaque étape — du conseil personnalisé à la réalisation de votre coiffure idéale. Coupes, colorations, soins : chaque prestation est exécutée avec précision et amour du détail."
+      - generic [ref=e59]: Nouvelle direction — Nouvelle ère, même excellence
+  - generic [ref=e61]:
+    - generic [ref=e62]:
+      - generic [ref=e63]: Nos Prestations
+      - heading "Ce que nous faisons pour vous" [level=2] [ref=e64]:
+        - text: Ce que nous
+        - text: faisons pour vous
+      - paragraph [ref=e65]: Tarifs personnalisés selon longueur et technicité. Consultation gratuite.
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - img [ref=e68]
+        - heading "Shampooing + Brush" [level=3] [ref=e74]
+        - paragraph [ref=e75]: Lavage, séchage et mise en forme pour une chevelure lumineuse.
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: Court
+            - generic [ref=e79]: 20€
+          - generic [ref=e81]:
+            - generic [ref=e82]: Mi-Long
+            - generic [ref=e83]: 25€
+          - generic [ref=e85]:
+            - generic [ref=e86]: Long
+            - generic [ref=e87]: 30€
+      - generic [ref=e88]:
+        - img [ref=e89]
+        - heading "Shamp + Coupe + Brush" [level=3] [ref=e91]
+        - paragraph [ref=e92]: Coupe personnalisée avec shampoing, séchage et coiffage soigné.
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: Court
+            - generic [ref=e96]: 35€
+          - generic [ref=e98]:
+            - generic [ref=e99]: Mi-Long
+            - generic [ref=e100]: 40€
+          - generic [ref=e102]:
+            - generic [ref=e103]: Long
+            - generic [ref=e104]: 45€
+      - generic [ref=e105]:
+        - img [ref=e106]
+        - heading "Shamp + Couleur + Brush" [level=3] [ref=e109]
+        - paragraph [ref=e110]: Coloration complète avec shampoing et mise en forme inclus.
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Court
+            - generic [ref=e114]: 55€
+          - generic [ref=e116]:
+            - generic [ref=e117]: Mi-Long
+            - generic [ref=e118]: 60€
+          - generic [ref=e120]:
+            - generic [ref=e121]: Long
+            - generic [ref=e122]: 65€
+      - generic [ref=e123]:
+        - img [ref=e124]
+        - heading "Shamp + Balayage + Brush" [level=3] [ref=e126]
+        - paragraph [ref=e127]: Technique de décoloration subtile pour un effet naturel et lumineux.
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]: Court
+            - generic [ref=e131]: 60€
+          - generic [ref=e133]:
+            - generic [ref=e134]: Mi-Long
+            - generic [ref=e135]: 65€
+          - generic [ref=e137]:
+            - generic [ref=e138]: Long
+            - generic [ref=e139]: 70€
+      - generic [ref=e140]:
+        - img [ref=e141]
+        - heading "Shamp + Coupe + Permanente" [level=3] [ref=e144]
+        - paragraph [ref=e145]: Ondulation longue durée pour un volume et une texture naturelle.
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: Court
+            - generic [ref=e149]: 50€
+          - generic [ref=e151]:
+            - generic [ref=e152]: Mi-Long
+            - generic [ref=e153]: 65€
+          - generic [ref=e155]:
+            - generic [ref=e156]: Long
+            - generic [ref=e157]: 80€
+      - generic [ref=e158]:
+        - img [ref=e159]
+        - heading "Soins & Patine" [level=3] [ref=e163]
+        - paragraph [ref=e164]: Soins nutritifs · Soin profond Davines · Patine court 10€ / long 20€
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - generic [ref=e167]: Soins
+            - generic [ref=e168]: 7€
+          - generic [ref=e170]:
+            - generic [ref=e171]: Soin Davines
+            - generic [ref=e172]: 15€
+          - generic [ref=e174]:
+            - generic [ref=e175]: Homme
+            - generic [ref=e176]: 21€
+    - paragraph [ref=e177]: "* +10€ coupe supplémentaire sous les forfaits femme · Supplément couleur homme +20€ · Supplément balayage homme +30€"
+  - generic [ref=e179]:
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - generic [ref=e182]: Nos Produits
+        - heading "La boutique du salon" [level=2] [ref=e183]:
+          - text: La boutique
+          - emphasis [ref=e184]: du salon
+        - generic [ref=e185]:
+          - img [ref=e186]
+          - generic [ref=e188]: Revendeur officiel
+          - generic [ref=e189]: Davines
+      - paragraph [ref=e190]: Davines, marque italienne de référence, allie performance professionnelle et formules respectueuses de l'environnement. Disponibles en salon.
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - img "Davines MINU Shampoo" [ref=e194]
+        - generic [ref=e195]:
+          - paragraph [ref=e196]: Davines — MINU
+          - heading "Shampoo" [level=3] [ref=e197]
+          - paragraph [ref=e198]: Shampoing protecteur illuminant pour cheveux colorés. Préserve l'éclat et la longévité de la couleur.
+      - generic [ref=e199]:
+        - img "Davines MINU Hair Mask" [ref=e201]
+        - generic [ref=e202]:
+          - paragraph [ref=e203]: Davines — MINU
+          - heading "Hair Mask" [level=3] [ref=e204]
+          - paragraph [ref=e205]: Masque nourrissant reconstituant pour cheveux colorés. Répare et sublime la chevelure en profondeur.
+      - generic [ref=e206]:
+        - img "Davines MINU Hair Serum" [ref=e208]
+        - generic [ref=e209]:
+          - paragraph [ref=e210]: Davines — MINU
+          - heading "Hair Serum" [level=3] [ref=e211]
+          - paragraph [ref=e212]: Sérum spray illuminant pour cheveux colorés. Brillance intense et protection thermique.
+      - generic [ref=e213]:
+        - img "Davines OI Body Wash" [ref=e215]
+        - generic [ref=e216]:
+          - paragraph [ref=e217]: Davines — OI
+          - heading "Body Wash" [level=3] [ref=e218]
+          - paragraph [ref=e219]: Gel douche luxueux à l'huile de Roucou. Peau douce, hydratée et délicatement parfumée.
+      - generic [ref=e220]:
+        - img "Davines OI Hair Butter" [ref=e222]
+        - generic [ref=e223]:
+          - paragraph [ref=e224]: Davines — OI
+          - heading "Hair Butter" [level=3] [ref=e225]
+          - paragraph [ref=e226]: Beurre capillaire ultra-nourrissant à l'huile de Roucou. Idéal pour les cheveux très secs.
+      - generic [ref=e227]:
+        - img "Davines Olailin Onemilk" [ref=e229]
+        - generic [ref=e230]:
+          - paragraph [ref=e231]: Davines — OI
+          - heading "Olailin Onemilk" [level=3] [ref=e232]
+          - paragraph [ref=e233]: Lait multi-usages en spray. Démêlage, brillance et protection thermique en un seul geste.
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - img [ref=e236]
+        - paragraph [ref=e239]:
+          - strong [ref=e240]: La gamme complète Davines est disponible directement en salon.
+          - text: Venez découvrir toute la collection sur place — notre équipe vous guide vers les produits adaptés à votre type de cheveux.
+      - link "Venir au salon" [ref=e241] [cursor=pointer]:
+        - /url: "#rdv"
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - img [ref=e244]
+        - generic [ref=e247]:
+          - paragraph [ref=e248]: Commandez en ligne, récupérez au salon
+          - paragraph [ref=e249]: Sélectionnez vos produits Davines directement sur Planity — nous les préparons, vous n'avez plus qu'à passer.
+      - link "Commander sur Planity" [ref=e250] [cursor=pointer]:
+        - /url: https://www.planity.com/discret-pour-plhair-77680-roissy-en-brie
+  - generic [ref=e252]:
+    - generic [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]: Notre Espace
+        - heading "Le salon en images" [level=2] [ref=e256]:
+          - text: Le salon
+          - text: en images
+      - link "Prendre RDV" [ref=e257] [cursor=pointer]:
+        - /url: "#reservation"
+    - generic [ref=e258]:
+      - img "Balayage réalisé au salon" [ref=e260]
+      - img "Balayage blonde réalisé au salon" [ref=e262]
+      - img "Bacs shampooing — mur bleu" [ref=e264]
+      - img "Intérieur du salon" [ref=e266]
+      - img "Fauteuils velours bleu du salon" [ref=e268]
+      - img "Espace lumineux du salon" [ref=e270]
+  - generic [ref=e272]:
+    - generic [ref=e273]: Réservation en ligne
+    - heading "Prenez rendez-vous" [level=2] [ref=e274]:
+      - text: Prenez
+      - emphasis [ref=e275]: rendez-vous
+    - paragraph [ref=e276]: Réservez votre créneau en quelques secondes, disponible 24h/24 directement sur Planity.
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - img [ref=e279]
+        - link "01.60.28.26.32" [ref=e281] [cursor=pointer]:
+          - /url: tel:0160282632
+      - generic [ref=e282]:
+        - img [ref=e283]
+        - text: 4 Première avenue, Roissy-en-Brie
+      - generic [ref=e286]:
+        - img [ref=e287]
+        - text: Lun–Ven 10h–19h · Sam 10h–17h
+    - generic [ref=e290]:
+      - link "Réserver sur Planity" [ref=e291] [cursor=pointer]:
+        - /url: https://www.planity.com/discret-pour-plhair-77680-roissy-en-brie
+        - img [ref=e292]
+        - text: Réserver sur Planity
+      - link "@discret_pour_plhair" [ref=e294] [cursor=pointer]:
+        - /url: https://www.instagram.com/discret_pour_plhair?utm_source=qr&igsh=NjR2MG0wcGdycTJ4
+        - img [ref=e295]
+        - text: "@discret_pour_plhair"
+  - contentinfo [ref=e299]:
+    - generic [ref=e300]:
+      - generic [ref=e301]:
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - img [ref=e304]
+            - text: Discret Pour Pl'Hair
+          - paragraph [ref=e308]: Salon de coiffure femme & homme. Une nouvelle ère, la même excellence au service de votre beauté.
+        - generic [ref=e309]:
+          - heading "Navigation" [level=4] [ref=e310]
+          - list [ref=e311]:
+            - listitem [ref=e312]:
+              - link "Nos Prestations" [ref=e313] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e314]:
+              - link "Galerie" [ref=e315] [cursor=pointer]:
+                - /url: "#galerie"
+            - listitem [ref=e316]:
+              - link "Réservation" [ref=e317] [cursor=pointer]:
+                - /url: "#reservation"
+        - generic [ref=e318]:
+          - heading "Horaires" [level=4] [ref=e319]
+          - list [ref=e320]:
+            - listitem [ref=e321]: "Lundi au Vendredi : 10h – 19h"
+            - listitem [ref=e322]: "Samedi : 10h – 17h"
+            - listitem [ref=e323]: "Dimanche : Fermé"
+        - generic [ref=e324]:
+          - heading "Contact" [level=4] [ref=e325]
+          - list [ref=e326]:
+            - listitem [ref=e327]:
+              - link "01.60.28.26.32" [ref=e328] [cursor=pointer]:
+                - /url: tel:0160282632
+            - listitem [ref=e329]:
+              - link "@discret_pour_plhair" [ref=e330] [cursor=pointer]:
+                - /url: https://www.instagram.com/discret_pour_plhair?utm_source=qr&igsh=NjR2MG0wcGdycTJ4
+                - img [ref=e331]
+                - text: "@discret_pour_plhair"
+            - listitem [ref=e335]:
+              - link "Réserver sur Planity" [ref=e336] [cursor=pointer]:
+                - /url: https://www.planity.com/discret-pour-plhair-77680-roissy-en-brie
+      - generic [ref=e337]:
+        - paragraph [ref=e338]: © 2026 Discret Pour Pl'Hair. Tous droits réservés.
+        - paragraph [ref=e339]:
+          - text: Site réalisé par
+          - link "Aura Futur Agency" [ref=e340] [cursor=pointer]:
+            - /url: "#"

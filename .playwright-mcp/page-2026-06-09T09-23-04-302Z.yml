@@ -1,0 +1,560 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8]
+        - generic [ref=e10]:
+          - button "Je suis un professionnel de beauté" [ref=e11] [cursor=pointer]:
+            - generic [ref=e12]: Je suis un professionnel de beauté
+          - button "Mon compte" [ref=e13] [cursor=pointer]:
+            - img [ref=e15]
+            - generic [ref=e18]: Mon compte
+    - generic [ref=e19]:
+      - main [ref=e20]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e27]:
+              - img [ref=e29] [cursor=pointer]
+              - img [ref=e31] [cursor=pointer]
+              - img [ref=e33] [cursor=pointer]
+              - img [ref=e35] [cursor=pointer]
+              - img [ref=e37] [cursor=pointer]
+              - button "Voir la galerie d'images" [ref=e38] [cursor=pointer]:
+                - generic [ref=e39]: Voir les 10 photos
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - heading "JULNEL SALON" [level=1] [ref=e44]
+                - generic [ref=e45]:
+                  - generic [ref=e46] [cursor=pointer]:
+                    - img [ref=e48]
+                    - paragraph [ref=e51]:
+                      - generic [ref=e52]:
+                        - text: 4 Av. Winston Churchill
+                        - generic [ref=e53]: ","
+                        - generic [ref=e54]: "77680"
+                        - text: Roissy-en-Brie
+                  - generic [ref=e56]:
+                    - img [ref=e58]
+                    - generic [ref=e60]: 4.7 (92 avis)
+              - button "Prendre RDV" [ref=e63] [cursor=pointer]:
+                - generic [ref=e64]: Prendre RDV
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - heading "Réserver en ligne pour un RDV chez JULNEL SALON" [level=2] [ref=e71]
+              - generic [ref=e72]: 24h/24 - Gratuitement - Paiement sur place - Confirmation immédiate
+            - generic [ref=e74]:
+              - main [ref=e75]:
+                - generic [ref=e76]:
+                  - generic [ref=e78]:
+                    - generic [ref=e79]: Choix de la prestation
+                    - generic [ref=e82]:
+                      - generic [ref=e83]:
+                        - heading "PRESTATION AFRO FEMME/HOMME" [level=3] [ref=e84]
+                        - generic [ref=e86]:
+                          - list [ref=e87]:
+                            - listitem [ref=e88] [cursor=pointer]:
+                              - generic [ref=e90]:
+                                - generic [ref=e93]: Crochet braids Cheveux court
+                                - generic [ref=e94]:
+                                  - generic [ref=e95]: 2h
+                                  - generic [ref=e97]:
+                                    - generic [ref=e98]: à partir de
+                                    - generic [ref=e99]: 50 €
+                                - button "Choisir" [ref=e100]:
+                                  - generic [ref=e101]: Choisir
+                            - listitem [ref=e102] [cursor=pointer]:
+                              - generic [ref=e104]:
+                                - generic [ref=e107]: Crochet braids Cheveux mi-longs
+                                - generic [ref=e108]:
+                                  - generic [ref=e109]: 2h
+                                  - generic [ref=e111]:
+                                    - generic [ref=e112]: à partir de
+                                    - generic [ref=e113]: 60 €
+                                - button "Choisir" [ref=e114]:
+                                  - generic [ref=e115]: Choisir
+                            - listitem [ref=e116] [cursor=pointer]:
+                              - generic [ref=e118]:
+                                - generic [ref=e121]: Crochet braids Cheveux longs
+                                - generic [ref=e122]:
+                                  - generic [ref=e123]: 3h
+                                  - generic [ref=e125]:
+                                    - generic [ref=e126]: à partir de
+                                    - generic [ref=e127]: 80 €
+                                - button "Choisir" [ref=e128]:
+                                  - generic [ref=e129]: Choisir
+                            - listitem [ref=e130] [cursor=pointer]:
+                              - generic [ref=e132]:
+                                - generic [ref=e135]: Piqués lâchés
+                                - generic [ref=e136]:
+                                  - generic [ref=e137]: 3h
+                                  - generic [ref=e139]:
+                                    - generic [ref=e140]: à partir de
+                                    - generic [ref=e141]: 50 €
+                                - button "Choisir" [ref=e142]:
+                                  - generic [ref=e143]: Choisir
+                            - listitem [ref=e144] [cursor=pointer]:
+                              - generic [ref=e146]:
+                                - generic [ref=e149]: Tissage
+                                - generic [ref=e150]:
+                                  - generic [ref=e151]: 2h
+                                  - generic [ref=e153]:
+                                    - generic [ref=e154]: à partir de
+                                    - generic [ref=e155]: 40 €
+                                - button "Choisir" [ref=e156]:
+                                  - generic [ref=e157]: Choisir
+                          - button "Voir les 29 autres prestations" [ref=e158] [cursor=pointer]:
+                            - generic [ref=e159]: Voir les 29 autres prestations
+                      - generic [ref=e160]:
+                        - heading "PRESATATION EUROPÉENNE / AFRO" [level=3] [ref=e161]
+                        - generic [ref=e163]:
+                          - list [ref=e164]:
+                            - listitem [ref=e165] [cursor=pointer]:
+                              - generic [ref=e167]:
+                                - generic [ref=e170]: Curly Cheveux Courts
+                                - generic [ref=e171]:
+                                  - generic [ref=e172]: 3h
+                                  - generic [ref=e174]:
+                                    - generic [ref=e175]: à partir de
+                                    - generic [ref=e176]: 80 €
+                                - button "Choisir" [ref=e177]:
+                                  - generic [ref=e178]: Choisir
+                            - listitem [ref=e179] [cursor=pointer]:
+                              - generic [ref=e181]:
+                                - generic [ref=e184]: Curly Cheveux Mi-longs
+                                - generic [ref=e185]:
+                                  - generic [ref=e186]: 2h
+                                  - generic [ref=e188]:
+                                    - generic [ref=e189]: à partir de
+                                    - generic [ref=e190]: 80 €
+                                - button "Choisir" [ref=e191]:
+                                  - generic [ref=e192]: Choisir
+                            - listitem [ref=e193] [cursor=pointer]:
+                              - generic [ref=e195]:
+                                - generic [ref=e198]: Curly cheveux longs
+                                - generic [ref=e199]:
+                                  - generic [ref=e200]: 3h
+                                  - generic [ref=e202]:
+                                    - generic [ref=e203]: à partir de
+                                    - generic [ref=e204]: 120 €
+                                - button "Choisir" [ref=e205]:
+                                  - generic [ref=e206]: Choisir
+                            - listitem [ref=e207] [cursor=pointer]:
+                              - generic [ref=e209]:
+                                - generic [ref=e212]: Lissage Tanin cheveux courts
+                                - generic [ref=e213]:
+                                  - generic [ref=e214]: 3h
+                                  - generic [ref=e216]:
+                                    - generic [ref=e217]: à partir de
+                                    - generic [ref=e218]: 100 €
+                                - button "Choisir" [ref=e219]:
+                                  - generic [ref=e220]: Choisir
+                            - listitem [ref=e221] [cursor=pointer]:
+                              - generic [ref=e223]:
+                                - generic [ref=e226]: Lissage Tanin cheveux mi-longs
+                                - generic [ref=e227]:
+                                  - generic [ref=e228]: 3h 30min
+                                  - generic [ref=e230]:
+                                    - generic [ref=e231]: à partir de
+                                    - generic [ref=e232]: 140 €
+                                - button "Choisir" [ref=e233]:
+                                  - generic [ref=e234]: Choisir
+                          - button "Voir les 9 autres prestations" [ref=e235] [cursor=pointer]:
+                            - generic [ref=e236]: Voir les 9 autres prestations
+                      - generic [ref=e237]:
+                        - heading "PRESTATION AFRO ENFANT" [level=3] [ref=e238]
+                        - list [ref=e241]:
+                          - listitem [ref=e242] [cursor=pointer]:
+                            - generic [ref=e244]:
+                              - generic [ref=e247]: Vanille Enfant
+                              - generic [ref=e248]:
+                                - generic [ref=e249]: 1h
+                                - generic [ref=e251]:
+                                  - generic [ref=e252]: à partir de
+                                  - generic [ref=e253]: 30 €
+                              - button "Choisir" [ref=e254]:
+                                - generic [ref=e255]: Choisir
+                          - listitem [ref=e256] [cursor=pointer]:
+                            - generic [ref=e258]:
+                              - generic [ref=e261]: Nattes collées Enfant
+                              - generic [ref=e262]:
+                                - generic [ref=e263]: 1h
+                                - generic [ref=e265]:
+                                  - generic [ref=e266]: à partir de
+                                  - generic [ref=e267]: 15 €
+                              - button "Choisir" [ref=e268]:
+                                - generic [ref=e269]: Choisir
+                          - listitem [ref=e270] [cursor=pointer]:
+                            - generic [ref=e272]:
+                              - generic [ref=e275]: Braids Enfant
+                              - generic [ref=e276]:
+                                - generic [ref=e277]: 2h
+                                - generic [ref=e279]:
+                                  - generic [ref=e280]: à partir de
+                                  - generic [ref=e281]: 40 €
+                              - button "Choisir" [ref=e282]:
+                                - generic [ref=e283]: Choisir
+                      - generic [ref=e284]:
+                        - heading "HOMME" [level=3] [ref=e285]
+                        - generic [ref=e287]:
+                          - list [ref=e288]:
+                            - listitem [ref=e289] [cursor=pointer]:
+                              - generic [ref=e291]:
+                                - generic [ref=e294]: Coupe Homme sans rdv
+                                - generic [ref=e295]:
+                                  - generic [ref=e296]: 30min
+                                  - generic [ref=e299]: 10 €
+                                - button "Choisir" [ref=e300]:
+                                  - generic [ref=e301]: Choisir
+                            - listitem [ref=e302] [cursor=pointer]:
+                              - generic [ref=e304]:
+                                - generic [ref=e307]: Coupe Enfant sans rdv
+                                - generic [ref=e308]:
+                                  - generic [ref=e309]: 30min
+                                  - generic [ref=e312]: 9 €
+                                - button "Choisir" [ref=e313]:
+                                  - generic [ref=e314]: Choisir
+                            - listitem [ref=e315] [cursor=pointer]:
+                              - generic [ref=e317]:
+                                - generic [ref=e320]: Coupe + barbe sans rdv
+                                - generic [ref=e321]:
+                                  - generic [ref=e322]: 30min
+                                  - generic [ref=e325]: 15 €
+                                - button "Choisir" [ref=e326]:
+                                  - generic [ref=e327]: Choisir
+                            - listitem [ref=e328] [cursor=pointer]:
+                              - generic [ref=e330]:
+                                - generic [ref=e331]:
+                                  - generic [ref=e333]: Rasage de crâne sans rdv
+                                  - generic [ref=e335]: sans prise de rdv
+                                - generic [ref=e336]:
+                                  - generic [ref=e337]: 20min
+                                  - generic [ref=e340]: 10 €
+                                - button "Choisir" [ref=e341]:
+                                  - generic [ref=e342]: Choisir
+                            - listitem [ref=e343] [cursor=pointer]:
+                              - generic [ref=e345]:
+                                - generic [ref=e348]: Coupe + barbe + coloration (noir) sans rdv
+                                - generic [ref=e349]:
+                                  - generic [ref=e350]: 1h 30min
+                                  - generic [ref=e353]: 25 €
+                                - button "Choisir" [ref=e354]:
+                                  - generic [ref=e355]: Choisir
+                          - button "Voir les 6 autres prestations" [ref=e356] [cursor=pointer]:
+                            - generic [ref=e357]: Voir les 6 autres prestations
+                      - generic [ref=e358]:
+                        - heading "BEAUTÉ DES MAINS" [level=3] [ref=e359]
+                        - generic [ref=e361]:
+                          - list [ref=e362]:
+                            - listitem [ref=e363] [cursor=pointer]:
+                              - generic [ref=e365]:
+                                - generic [ref=e368]: Pose de Vernis Semi-permanent
+                                - generic [ref=e369]:
+                                  - generic [ref=e370]: 40min
+                                  - generic [ref=e372]:
+                                    - generic [ref=e373]: à partir de
+                                    - generic [ref=e374]: 30 €
+                                - button "Choisir" [ref=e375]:
+                                  - generic [ref=e376]: Choisir
+                            - listitem [ref=e377] [cursor=pointer]:
+                              - generic [ref=e379]:
+                                - generic [ref=e382]: Pose gel sur ongles naturels(gainage)
+                                - generic [ref=e383]:
+                                  - generic [ref=e384]: 1h
+                                  - generic [ref=e386]:
+                                    - generic [ref=e387]: à partir de
+                                    - generic [ref=e388]: 40 €
+                                - button "Choisir" [ref=e389]:
+                                  - generic [ref=e390]: Choisir
+                            - listitem [ref=e391] [cursor=pointer]:
+                              - generic [ref=e393]:
+                                - generic [ref=e396]: Pose complète gel + semi-permanent
+                                - generic [ref=e397]:
+                                  - generic [ref=e398]: 2h
+                                  - generic [ref=e400]:
+                                    - generic [ref=e401]: à partir de
+                                    - generic [ref=e402]: 50 €
+                                - button "Choisir" [ref=e403]:
+                                  - generic [ref=e404]: Choisir
+                            - listitem [ref=e405] [cursor=pointer]:
+                              - generic [ref=e407]:
+                                - generic [ref=e410]: Remplissage gel + semi-permanent
+                                - generic [ref=e411]:
+                                  - generic [ref=e412]: 1h 30min
+                                  - generic [ref=e414]:
+                                    - generic [ref=e415]: à partir de
+                                    - generic [ref=e416]: 45 €
+                                - button "Choisir" [ref=e417]:
+                                  - generic [ref=e418]: Choisir
+                            - listitem [ref=e419]:
+                              - generic [ref=e421]:
+                                - generic [ref=e422]:
+                                  - generic [ref=e424]: Réparation ongle cassé
+                                  - generic [ref=e425]: Cette prestation ne peut pas être réservée en ligne. Merci d'appeler le 09 79 29 84 71.
+                                - generic [ref=e426]:
+                                  - generic [ref=e427]: 10min
+                                  - generic [ref=e429]:
+                                    - generic [ref=e430]: à partir de
+                                    - generic [ref=e431]: 3 €
+                          - button "Voir les 8 autres prestations" [ref=e432] [cursor=pointer]:
+                            - generic [ref=e433]: Voir les 8 autres prestations
+                      - generic [ref=e434]:
+                        - heading "BEAUTÉ DES PIEDS" [level=3] [ref=e435]
+                        - generic [ref=e437]:
+                          - list [ref=e438]:
+                            - listitem [ref=e439] [cursor=pointer]:
+                              - generic [ref=e441]:
+                                - generic [ref=e444]: Beauté des pieds sans vernis
+                                - generic [ref=e445]:
+                                  - generic [ref=e446]: 30min
+                                  - generic [ref=e449]: 15 €
+                                - button "Choisir" [ref=e450]:
+                                  - generic [ref=e451]: Choisir
+                            - listitem [ref=e452] [cursor=pointer]:
+                              - generic [ref=e454]:
+                                - generic [ref=e457]: Pose de Vernis Semi-permanent
+                                - generic [ref=e458]:
+                                  - generic [ref=e459]: 30min
+                                  - generic [ref=e462]: 20 €
+                                - button "Choisir" [ref=e463]:
+                                  - generic [ref=e464]: Choisir
+                            - listitem [ref=e465] [cursor=pointer]:
+                              - generic [ref=e467]:
+                                - generic [ref=e470]: Pose de semi-permanent + Cuticule
+                                - generic [ref=e471]:
+                                  - generic [ref=e472]: 30min
+                                  - generic [ref=e474]:
+                                    - generic [ref=e475]: à partir de
+                                    - generic [ref=e476]: 30 €
+                                - button "Choisir" [ref=e477]:
+                                  - generic [ref=e478]: Choisir
+                            - listitem [ref=e479] [cursor=pointer]:
+                              - generic [ref=e481]:
+                                - generic [ref=e484]: Beauté des pieds nettoyage
+                                - generic [ref=e485]:
+                                  - generic [ref=e486]: 1h
+                                  - generic [ref=e489]: 35 €
+                                - button "Choisir" [ref=e490]:
+                                  - generic [ref=e491]: Choisir
+                            - listitem [ref=e492] [cursor=pointer]:
+                              - generic [ref=e494]:
+                                - generic [ref=e497]: Beauté des pieds nettoyage + semi-permanent
+                                - generic [ref=e498]:
+                                  - generic [ref=e499]: 1h
+                                  - generic [ref=e502]: 45 €
+                                - button "Choisir" [ref=e503]:
+                                  - generic [ref=e504]: Choisir
+                          - button "Voir 1 autre prestation" [ref=e505] [cursor=pointer]:
+                            - generic [ref=e506]: Voir 1 autre prestation
+                  - generic [ref=e508]:
+                    - generic [ref=e509]:
+                      - heading "Où se situe le salon ?" [level=2] [ref=e510]
+                      - generic [ref=e512] [cursor=pointer]:
+                        - img [ref=e514]
+                        - paragraph [ref=e517]:
+                          - generic [ref=e518]:
+                            - text: 4 Av. Winston Churchill
+                            - generic [ref=e519]: ","
+                            - generic [ref=e520]: "77680"
+                            - text: Roissy-en-Brie
+                      - generic [ref=e522]:
+                        - button "Afficher la carte" [ref=e523] [cursor=pointer]:
+                          - img [ref=e525]
+                          - generic [ref=e529]: Afficher la carte
+                        - img
+                    - generic [ref=e530]:
+                      - heading "Collaborateurs" [level=2] [ref=e531]
+                      - generic [ref=e533]:
+                        - generic [ref=e535]:
+                          - generic [ref=e536]: CL
+                          - generic [ref=e538]: Coiffeuse Locks
+                        - generic [ref=e540]:
+                          - generic [ref=e541]: CB
+                          - generic [ref=e543]: Coiffeuse Braids
+                        - generic [ref=e545]:
+                          - generic [ref=e546]: CH
+                          - generic [ref=e548]: Coiffeuse HOMME/FEMME
+                        - generic [ref=e550]:
+                          - generic [ref=e551]: TO
+                          - generic [ref=e553]: Technicienne Ongle
+                    - generic [ref=e556]:
+                      - heading "Informations" [level=2] [ref=e557]
+                      - generic [ref=e559]:
+                        - generic [ref=e562] [cursor=pointer]: À-propos
+                        - generic [ref=e566]:
+                          - img [ref=e569]
+                          - generic [ref=e570]:
+                            - paragraph [ref=e573]: Présentation
+                            - paragraph [ref=e575]: Situé à Roissy-en-Brie, le JULNEL SALON est un espace de beauté et de bien-être dédié à vos cheveux. Composé d'une équipe de cinq talentueux coiffeurs passionnés, notre salon de coiffure offre une variété de prestations de haute qualité pour femmes, hommes, adolescents et enfants. Que vous ayez besoin d'une coupe classique, d'un rafraîchissement de votre coupe actuelle ou que vous cherchiez à expérimenter un nouveau style, notre équipe est prête à répondre à vos attentes. Nous sommes reconnus pour notre expertise en coiffure afro, butinant entre les classiques intemporels et les tendances actuelles. De plus, notre salon propose des services de barbier, pour des hommes cherchant à entretenir ou sculpter leur barbe avec soin. Quel que soit votre besoin, JULNEL SALON, votre salon de coiffure à Roissy-en-Brie, vous accueille dans une atmosphère conviviale et décontractée pour une expérience capillaire inoubliable. Venez nous rencontrer et confier votre chevelure à nos mains expertes!
+                    - generic [ref=e577]:
+                      - heading "Dans cet établissement" [level=2] [ref=e578]
+                      - generic [ref=e580]:
+                        - link "Coiffure femme Roissy-en-Brie" [ref=e581] [cursor=pointer]:
+                          - /url: /coiffeur/coiffure-femme/77680-roissy-en-brie
+                        - link "Prothésiste ongulaire Roissy-en-Brie" [ref=e582] [cursor=pointer]:
+                          - /url: /manucure-et-pedicure/77680-roissy-en-brie
+                        - link "Coiffure homme Roissy-en-Brie" [ref=e583] [cursor=pointer]:
+                          - /url: /coiffeur/coiffure-homme/77680-roissy-en-brie
+                        - link "Lissage et défrisage Roissy-en-Brie" [ref=e584] [cursor=pointer]:
+                          - /url: /coiffeur/lissage-et-defrisage/77680-roissy-en-brie
+                        - link "Barber Roissy-en-Brie" [ref=e585] [cursor=pointer]:
+                          - /url: /barbier/77680-roissy-en-brie
+              - complementary [ref=e587]:
+                - generic [ref=e588]:
+                  - generic [ref=e592]:
+                    - generic [ref=e594]:
+                      - button "Note globale" [ref=e595] [cursor=pointer]
+                      - button "Avis" [ref=e596] [cursor=pointer]
+                    - generic [ref=e599]:
+                      - generic [ref=e601]: 4,7
+                      - generic [ref=e602]:
+                        - list [ref=e603]:
+                          - listitem [ref=e604]:
+                            - text: Accueil
+                            - generic [ref=e605]:
+                              - text: 4,8
+                              - img [ref=e607]
+                          - listitem [ref=e609]:
+                            - text: Propreté
+                            - generic [ref=e610]:
+                              - text: 4,5
+                              - img [ref=e612]
+                          - listitem [ref=e614]:
+                            - text: Cadre & Ambiance
+                            - generic [ref=e615]:
+                              - text: 4,6
+                              - img [ref=e617]
+                          - listitem [ref=e619]:
+                            - text: Qualité de la prestation
+                            - generic [ref=e620]:
+                              - text: 4,8
+                              - img [ref=e622]
+                        - text: 92 clients ont donné leur avis
+                  - generic [ref=e625]:
+                    - heading "Horaires d'ouverture" [level=2] [ref=e626]
+                    - list [ref=e628]:
+                      - listitem [ref=e629]:
+                        - generic [ref=e630]: Lundi
+                        - generic [ref=e631]: Fermé
+                      - listitem [ref=e632]:
+                        - generic [ref=e633]: Mardi
+                        - generic [ref=e635]: 10:00 - 20:00
+                      - listitem [ref=e636]:
+                        - generic [ref=e637]: Mercredi
+                        - generic [ref=e639]: 10:00 - 20:00
+                      - listitem [ref=e640]:
+                        - generic [ref=e641]: Jeudi
+                        - generic [ref=e643]: 10:00 - 20:00
+                      - listitem [ref=e644]:
+                        - generic [ref=e645]: Vendredi
+                        - generic [ref=e647]: 10:00 - 20:00
+                      - listitem [ref=e648]:
+                        - generic [ref=e649]: Samedi
+                        - generic [ref=e651]: 10:00 - 20:00
+                      - listitem [ref=e652]:
+                        - generic [ref=e653]: Dimanche
+                        - generic [ref=e655]: 10:00 - 20:00
+      - navigation [ref=e658]:
+        - link "Coiffeur Roissy-en-brie" [ref=e661] [cursor=pointer]:
+          - /url: /coiffeur/77680-roissy-en-brie
+          - generic [ref=e662]: Coiffeur Roissy-en-brie
+        - generic [ref=e663]:
+          - img [ref=e665]
+          - generic [ref=e668]: JULNEL SALON
+      - contentinfo [ref=e669]:
+        - generic [ref=e670]:
+          - navigation [ref=e671]:
+            - generic [ref=e672]:
+              - img [ref=e673]
+              - generic [ref=e675]:
+                - button [ref=e676] [cursor=pointer]:
+                  - img [ref=e678]
+                - button [ref=e680] [cursor=pointer]:
+                  - img [ref=e682]
+            - generic [ref=e685]:
+              - generic [ref=e686]: À propos de Planity
+              - list [ref=e687]:
+                - listitem [ref=e688]:
+                  - link "Je suis un professionnel de beauté" [ref=e689] [cursor=pointer]:
+                    - /url: https://info.planity.com/devenez-partenaire?utm_source=planity&utm_campaign=footer
+                - listitem [ref=e690]:
+                  - link "Rejoignez-nous" [ref=e691] [cursor=pointer]:
+                    - /url: https://careers.planity.com/
+                - listitem [ref=e692]:
+                  - link "CGU" [ref=e693] [cursor=pointer]:
+                    - /url: /mentions-legales
+                - listitem [ref=e694]:
+                  - link "Planity Belgique" [ref=e695] [cursor=pointer]:
+                    - /url: /fr-BE
+                - listitem [ref=e696]:
+                  - link "Planity Deutschland" [ref=e697] [cursor=pointer]:
+                    - /url: /de-DE
+                - listitem [ref=e698]:
+                  - link "Politique de confidentialité" [ref=e699] [cursor=pointer]:
+                    - /url: /politique-de-confidentialite
+                - listitem [ref=e700]:
+                  - link "Politique de lutte contre les contenus illicites" [ref=e701] [cursor=pointer]:
+                    - /url: /politique-de-contenu-illicite
+                - listitem [ref=e702]:
+                  - generic [ref=e703] [cursor=pointer]: Gestion des cookies
+                - listitem [ref=e704]:
+                  - 'link "Accessibilité : Partiellement conforme" [ref=e705] [cursor=pointer]':
+                    - /url: /accessibilite-non-conforme
+            - generic [ref=e706]:
+              - generic [ref=e707]: Trouvez votre prestation
+              - list [ref=e708]:
+                - listitem [ref=e709]:
+                  - link "Coiffeur" [ref=e710] [cursor=pointer]:
+                    - /url: /coiffeur
+                - listitem [ref=e711]:
+                  - link "Institut de beauté" [ref=e712] [cursor=pointer]:
+                    - /url: /institut-de-beaute
+                - listitem [ref=e713]:
+                  - link "Barbier" [ref=e714] [cursor=pointer]:
+                    - /url: /barbier
+                - listitem [ref=e715]:
+                  - link "Manucure et beauté des pieds" [ref=e716] [cursor=pointer]:
+                    - /url: /manucure-et-pedicure
+                - listitem [ref=e717]:
+                  - link "Spa" [ref=e718] [cursor=pointer]:
+                    - /url: /spa
+                - listitem [ref=e719]:
+                  - link "Massage" [ref=e720] [cursor=pointer]:
+                    - /url: /institut-de-beaute/massage
+                - listitem [ref=e721]:
+                  - link "Bien-être" [ref=e722] [cursor=pointer]:
+                    - /url: /fr-FR/bien-etre
+            - generic [ref=e723]:
+              - generic [ref=e724]: Recherches fréquentes
+              - list [ref=e725]:
+                - listitem [ref=e726]:
+                  - link "Coiffeur Paris" [ref=e727] [cursor=pointer]:
+                    - /url: /coiffeur/paris-75
+                - listitem [ref=e728]:
+                  - link "Coiffeur Bordeaux" [ref=e729] [cursor=pointer]:
+                    - /url: /coiffeur/33000-bordeaux
+                - listitem [ref=e730]:
+                  - link "Coiffeur Lyon" [ref=e731] [cursor=pointer]:
+                    - /url: /coiffeur/lyon-69
+                - listitem [ref=e732]:
+                  - link "Coiffeur Toulouse" [ref=e733] [cursor=pointer]:
+                    - /url: /coiffeur/31000-toulouse
+          - separator [ref=e734]
+          - generic [ref=e736]: Copyright © 2026 Planity
+  - generic:
+    - button "Fermer":
+      - generic:
+        - img
+  - generic:
+    - button "Fermer":
+      - generic:
+        - img
+    - generic:
+      - generic:
+        - button:
+          - generic:
+            - img
+        - button:
+          - generic:
+            - img

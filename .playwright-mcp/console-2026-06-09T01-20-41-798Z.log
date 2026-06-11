@@ -1,0 +1,2 @@
+[     355ms] [ERROR] Error: <path> attribute d: Unexpected end of attribute. Expected number, "M8 32C5 36 4 40". @ https://discret-pour-plhair.vercel.app/:503
+[    3286ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://discret-pour-plhair.vercel.app/favicon.ico:0

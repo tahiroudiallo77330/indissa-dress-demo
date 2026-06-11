@@ -1,0 +1,526 @@
+- generic [ref=e24]:
+  - generic [ref=e25]:
+    - banner [ref=e27]:
+      - generic [ref=e28]:
+        - link [ref=e29] [cursor=pointer]:
+          - /url: /
+          - img [ref=e30]
+        - generic [ref=e32]:
+          - button "Je suis un professionnel de beauté" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: Je suis un professionnel de beauté
+          - button "Mon compte" [ref=e35] [cursor=pointer]:
+            - img [ref=e37]
+            - generic [ref=e40]: Mon compte
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e49]:
+              - img [ref=e51] [cursor=pointer]
+              - img [ref=e53] [cursor=pointer]
+              - img [ref=e55] [cursor=pointer]
+              - img [ref=e57] [cursor=pointer]
+              - img [ref=e59] [cursor=pointer]
+              - button "Voir la galerie d'images" [ref=e60] [cursor=pointer]:
+                - generic [ref=e61]: Voir les 12 photos
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - heading "Coiff’Ethnik" [level=1] [ref=e66]
+                - generic [ref=e67]:
+                  - generic [ref=e68] [cursor=pointer]:
+                    - img [ref=e70]
+                    - paragraph [ref=e73]:
+                      - generic [ref=e74]:
+                        - text: 9 Avenue du Général Pierre Billotte
+                        - generic [ref=e75]: ","
+                        - generic [ref=e76]: "94000"
+                        - text: Créteil
+                  - generic [ref=e77]:
+                    - generic [ref=e78]:
+                      - img [ref=e80]
+                      - generic [ref=e82]: 4.7 (419 avis)
+                    - generic [ref=e84]: €€€€
+              - button "Prendre RDV" [ref=e87] [cursor=pointer]:
+                - generic [ref=e88]: Prendre RDV
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - heading "Réserver en ligne pour un RDV chez Coiff’Ethnik" [level=2] [ref=e95]
+              - generic [ref=e96]: 24h/24 - Confirmation immédiate
+            - generic [ref=e98]:
+              - main [ref=e99]:
+                - generic [ref=e100]:
+                  - generic [ref=e102]:
+                    - generic [ref=e103]: Choix de la prestation
+                    - generic [ref=e106]:
+                      - generic [ref=e107]:
+                        - heading "Homme" [level=3] [ref=e108]
+                        - generic [ref=e110]:
+                          - list [ref=e111]:
+                            - listitem [ref=e112] [cursor=pointer]:
+                              - generic [ref=e114]:
+                                - generic [ref=e117]: Coupe coiffage simple tondeuse
+                                - generic [ref=e120]: 20 €
+                                - button "Choisir" [ref=e121]:
+                                  - generic [ref=e122]: Choisir
+                            - listitem [ref=e123] [cursor=pointer]:
+                              - generic [ref=e125]:
+                                - generic [ref=e128]: Coupe coiffage tondeuse tracage de barbe
+                                - generic [ref=e131]: 25 €
+                                - button "Choisir" [ref=e132]:
+                                  - generic [ref=e133]: Choisir
+                            - listitem [ref=e134] [cursor=pointer]:
+                              - generic [ref=e136]:
+                                - generic [ref=e139]: Coupe simple shamp tondeuse
+                                - generic [ref=e142]: 20 €
+                                - button "Choisir" [ref=e143]:
+                                  - generic [ref=e144]: Choisir
+                            - listitem [ref=e145] [cursor=pointer]:
+                              - generic [ref=e147]:
+                                - generic [ref=e150]: Coupe ciseaux
+                                - generic [ref=e153]: 20 €
+                                - button "Choisir" [ref=e154]:
+                                  - generic [ref=e155]: Choisir
+                            - listitem [ref=e156] [cursor=pointer]:
+                              - generic [ref=e158]:
+                                - generic [ref=e161]: Contours
+                                - generic [ref=e164]: 10 €
+                                - button "Choisir" [ref=e165]:
+                                  - generic [ref=e166]: Choisir
+                          - button "Voir les 6 autres prestations" [ref=e765] [cursor=pointer]:
+                            - generic [ref=e766]: Voir les 6 autres prestations
+                      - generic [ref=e169]:
+                        - heading "Femme - Soin" [level=3] [ref=e170]
+                        - list [ref=e173]:
+                          - listitem [ref=e174] [cursor=pointer]:
+                            - generic [ref=e176]:
+                              - generic [ref=e179]: Soin capillaire rajeunissant - Cheveux courts
+                              - generic [ref=e182]: 60 €
+                              - button "Choisir" [ref=e183]:
+                                - generic [ref=e184]: Choisir
+                          - listitem [ref=e185] [cursor=pointer]:
+                            - generic [ref=e187]:
+                              - generic [ref=e190]: Soin complet mi-long
+                              - generic [ref=e193]: 70 €
+                              - button "Choisir" [ref=e194]:
+                                - generic [ref=e195]: Choisir
+                          - listitem [ref=e196] [cursor=pointer]:
+                            - generic [ref=e198]:
+                              - generic [ref=e201]: Soin capillaire rajeunissant - Cheveux longs
+                              - generic [ref=e204]: 80 €
+                              - button "Choisir" [ref=e205]:
+                                - generic [ref=e206]: Choisir
+                          - listitem [ref=e207] [cursor=pointer]:
+                            - generic [ref=e209]:
+                              - generic [ref=e212]: Soin capillaire à la kératine
+                              - generic [ref=e215]: 80 €
+                              - button "Choisir" [ref=e216]:
+                                - generic [ref=e217]: Choisir
+                      - generic [ref=e218]:
+                        - heading "Femme - Défrisage / Lissage" [level=3] [ref=e219]
+                        - generic [ref=e221]:
+                          - list [ref=e222]:
+                            - listitem [ref=e223] [cursor=pointer]:
+                              - generic [ref=e225]:
+                                - generic [ref=e228]: Defrissage racines
+                                - generic [ref=e231]: 50 €
+                                - button "Choisir" [ref=e232]:
+                                  - generic [ref=e233]: Choisir
+                            - listitem [ref=e234] [cursor=pointer]:
+                              - generic [ref=e236]:
+                                - generic [ref=e239]: Défrisage - Cheveux courts
+                                - generic [ref=e242]: 60 €
+                                - button "Choisir" [ref=e243]:
+                                  - generic [ref=e244]: Choisir
+                            - listitem [ref=e245] [cursor=pointer]:
+                              - generic [ref=e247]:
+                                - generic [ref=e250]: Défrisage - Cheveux mi-longs
+                                - generic [ref=e253]: 70 €
+                                - button "Choisir" [ref=e254]:
+                                  - generic [ref=e255]: Choisir
+                            - listitem [ref=e256] [cursor=pointer]:
+                              - generic [ref=e258]:
+                                - generic [ref=e261]: Défrisage - Cheveux longs
+                                - generic [ref=e264]: 80 €
+                                - button "Choisir" [ref=e265]:
+                                  - generic [ref=e266]: Choisir
+                            - listitem [ref=e267] [cursor=pointer]:
+                              - generic [ref=e269]:
+                                - generic [ref=e272]: Lissage Brésilien - Cheveux courts
+                                - generic [ref=e275]: Sur devis
+                                - button "Choisir" [ref=e276]:
+                                  - generic [ref=e277]: Choisir
+                          - button "Voir les 5 autres prestations" [ref=e767] [cursor=pointer]:
+                            - generic [ref=e768]: Voir les 5 autres prestations
+                      - generic [ref=e280]:
+                        - heading "Techniques seules" [level=3] [ref=e281]
+                        - generic [ref=e283]:
+                          - list [ref=e284]:
+                            - listitem [ref=e285] [cursor=pointer]:
+                              - generic [ref=e287]:
+                                - generic [ref=e290]: Shampoing broshing
+                                - generic [ref=e292]:
+                                  - generic [ref=e293]: à partir de
+                                  - generic [ref=e294]: 30 €
+                                - button "Choisir" [ref=e295]:
+                                  - generic [ref=e296]: Choisir
+                            - listitem [ref=e297] [cursor=pointer]:
+                              - generic [ref=e299]:
+                                - generic [ref=e302]: Coupe transformation +Shampoing + Brushing
+                                - generic [ref=e304]:
+                                  - generic [ref=e305]: à partir de
+                                  - generic [ref=e306]: 40 €
+                                - button "Choisir" [ref=e307]:
+                                  - generic [ref=e308]: Choisir
+                            - listitem [ref=e309] [cursor=pointer]:
+                              - generic [ref=e311]:
+                                - generic [ref=e314]: Décoloration
+                                - generic [ref=e316]:
+                                  - generic [ref=e317]: à partir de
+                                  - generic [ref=e318]: 50 €
+                                - button "Choisir" [ref=e319]:
+                                  - generic [ref=e320]: Choisir
+                            - listitem [ref=e321] [cursor=pointer]:
+                              - generic [ref=e323]:
+                                - generic [ref=e326]: Patine
+                                - generic [ref=e328]:
+                                  - generic [ref=e329]: à partir de
+                                  - generic [ref=e330]: 30 €
+                                - button "Choisir" [ref=e331]:
+                                  - generic [ref=e332]: Choisir
+                            - listitem [ref=e333] [cursor=pointer]:
+                              - generic [ref=e335]:
+                                - generic [ref=e338]: Mèches
+                                - generic [ref=e340]:
+                                  - generic [ref=e341]: à partir de
+                                  - generic [ref=e342]: 60 €
+                                - button "Choisir" [ref=e343]:
+                                  - generic [ref=e344]: Choisir
+                          - button "Voir les 3 autres prestations" [ref=e769] [cursor=pointer]:
+                            - generic [ref=e770]: Voir les 3 autres prestations
+                      - generic [ref=e347]:
+                        - heading "Femme - Coiffure / Coiffure Afro" [level=3] [ref=e348]
+                        - generic [ref=e350]:
+                          - list [ref=e351]:
+                            - listitem [ref=e352] [cursor=pointer]:
+                              - generic [ref=e354]:
+                                - generic [ref=e357]: Nattes Collées avec meches
+                                - generic [ref=e360]: Sur devis
+                                - button "Choisir" [ref=e361]:
+                                  - generic [ref=e362]: Choisir
+                            - listitem [ref=e363] [cursor=pointer]:
+                              - generic [ref=e365]:
+                                - generic [ref=e368]: Nattes collés sans meches
+                                - generic [ref=e371]: 25 €
+                                - button "Choisir" [ref=e372]:
+                                  - generic [ref=e373]: Choisir
+                            - listitem [ref=e374] [cursor=pointer]:
+                              - generic [ref=e376]:
+                                - generic [ref=e379]: Braides avec meches
+                                - generic [ref=e381]:
+                                  - generic [ref=e382]: à partir de
+                                  - generic [ref=e383]: 60 €
+                                - button "Choisir" [ref=e384]:
+                                  - generic [ref=e385]: Choisir
+                            - listitem [ref=e386] [cursor=pointer]:
+                              - generic [ref=e388]:
+                                - generic [ref=e391]: Knotless
+                                - generic [ref=e393]:
+                                  - generic [ref=e394]: à partir de
+                                  - generic [ref=e395]: 60 €
+                                - button "Choisir" [ref=e396]:
+                                  - generic [ref=e397]: Choisir
+                            - listitem [ref=e398] [cursor=pointer]:
+                              - generic [ref=e400]:
+                                - generic [ref=e403]: "Dénattage : Coiffure Afro"
+                                - button "Choisir" [ref=e404]:
+                                  - generic [ref=e405]: Choisir
+                          - button "Voir les 5 autres prestations" [ref=e771] [cursor=pointer]:
+                            - generic [ref=e772]: Voir les 5 autres prestations
+                      - generic [ref=e408]:
+                        - heading "Femme - Tissage" [level=3] [ref=e409]
+                        - generic [ref=e411]:
+                          - list [ref=e412]:
+                            - listitem [ref=e413] [cursor=pointer]:
+                              - generic [ref=e415]:
+                                - generic [ref=e418]: Tissage fermé
+                                - generic [ref=e421]: 55 €
+                                - button "Choisir" [ref=e422]:
+                                  - generic [ref=e423]: Choisir
+                            - listitem [ref=e424] [cursor=pointer]:
+                              - generic [ref=e426]:
+                                - generic [ref=e429]: Tissage ouvert
+                                - generic [ref=e432]: 50 €
+                                - button "Choisir" [ref=e433]:
+                                  - generic [ref=e434]: Choisir
+                            - listitem [ref=e435] [cursor=pointer]:
+                              - generic [ref=e437]:
+                                - generic [ref=e440]: Tissage Demi-tête
+                                - generic [ref=e443]: 40 €
+                                - button "Choisir" [ref=e444]:
+                                  - generic [ref=e445]: Choisir
+                            - listitem [ref=e446] [cursor=pointer]:
+                              - generic [ref=e448]:
+                                - generic [ref=e451]: Ligne Tissage
+                                - generic [ref=e454]: 10 €
+                                - button "Choisir" [ref=e455]:
+                                  - generic [ref=e456]: Choisir
+                            - listitem [ref=e457] [cursor=pointer]:
+                              - generic [ref=e459]:
+                                - generic [ref=e462]: Dépose tissage
+                                - generic [ref=e465]: 15 €
+                                - button "Choisir" [ref=e466]:
+                                  - generic [ref=e467]: Choisir
+                          - button "Voir les 6 autres prestations" [ref=e773] [cursor=pointer]:
+                            - generic [ref=e774]: Voir les 6 autres prestations
+                      - generic [ref=e470]:
+                        - heading "Locks" [level=3] [ref=e471]
+                        - list [ref=e474]:
+                          - listitem [ref=e475] [cursor=pointer]:
+                            - generic [ref=e477]:
+                              - generic [ref=e480]: Fausse locks
+                              - generic [ref=e483]: Sur devis
+                              - button "Choisir" [ref=e484]:
+                                - generic [ref=e485]: Choisir
+                          - listitem [ref=e486] [cursor=pointer]:
+                            - generic [ref=e488]:
+                              - generic [ref=e491]: Depart locks crochets
+                              - generic [ref=e493]:
+                                - generic [ref=e494]: à partir de
+                                - generic [ref=e495]: 120 €
+                              - button "Choisir" [ref=e496]:
+                                - generic [ref=e497]: Choisir
+                          - listitem [ref=e498] [cursor=pointer]:
+                            - generic [ref=e500]:
+                              - generic [ref=e503]: Entretiens shampooing soins locks reprise racine
+                              - generic [ref=e505]:
+                                - generic [ref=e506]: à partir de
+                                - generic [ref=e507]: 60 €
+                              - button "Choisir" [ref=e508]:
+                                - generic [ref=e509]: Choisir
+                          - listitem [ref=e510] [cursor=pointer]:
+                            - generic [ref=e512]:
+                              - generic [ref=e515]: Reprise locks
+                              - generic [ref=e518]: Sur devis
+                              - button "Choisir" [ref=e519]:
+                                - generic [ref=e520]: Choisir
+                  - generic [ref=e522]:
+                    - generic [ref=e523]:
+                      - heading "Où se situe le salon ?" [level=2] [ref=e524]
+                      - generic [ref=e526] [cursor=pointer]:
+                        - img [ref=e528]
+                        - paragraph [ref=e531]:
+                          - generic [ref=e532]:
+                            - text: 9 Avenue du Général Pierre Billotte
+                            - generic [ref=e533]: ","
+                            - generic [ref=e534]: "94000"
+                            - text: Créteil
+                      - generic [ref=e536]:
+                        - button "Afficher la carte" [ref=e537] [cursor=pointer]:
+                          - img [ref=e539]
+                          - generic [ref=e543]: Afficher la carte
+                        - img
+                    - generic [ref=e544]:
+                      - heading "Collaborateurs" [level=2] [ref=e545]
+                      - generic [ref=e547]:
+                        - generic [ref=e549]:
+                          - generic [ref=e550]: B
+                          - generic [ref=e552]: Bem
+                        - generic [ref=e554]:
+                          - generic [ref=e555]: OA
+                          - generic [ref=e557]: Ossam aka Firstfils
+                        - generic [ref=e559]:
+                          - generic [ref=e560]: K
+                          - generic [ref=e562]: Khadi
+                        - generic [ref=e564]:
+                          - generic [ref=e565]: I
+                          - generic [ref=e567]: Ismaîl
+                        - generic [ref=e569]:
+                          - generic [ref=e570]: "N"
+                          - generic [ref=e572]: Nabou
+                        - generic [ref=e574]:
+                          - generic [ref=e575]: J
+                          - generic [ref=e577]: Jade
+                    - generic [ref=e580]:
+                      - heading "Informations" [level=2] [ref=e581]
+                      - generic [ref=e583]:
+                        - generic [ref=e586] [cursor=pointer]: À-propos
+                        - generic [ref=e590]:
+                          - img [ref=e593]
+                          - generic [ref=e594]:
+                            - paragraph [ref=e597]: Présentation
+                            - generic [ref=e598]:
+                              - paragraph [ref=e599]: Dans le sud-est de Paris, à Créteil, Coiff’Ethnic est un salon de coiffure à l’esprit multi-ethnique, spécialisé notamment dans le soin des cheveux afro. Outre les prestations classiques, vous pourrez bénéficier de soins plus spécifiques comme le lissage brésilien, le défrisage, le tissage et la pose de nattes.
+                              - paragraph [ref=e600]: L’équipe de Coiff’Ethnic possède le savoir-faire nécessaire pour traiter tous les types de cheveux, afro comme européens, et vous conseille sur la coupe la plus adaptée à votre visage. Envie d’arborer une belle et longue chevelure ? La pose de tissage réalisée chez Coiff’Ethnic vous permettra de gagner en longueur et densité de façon naturelle.
+                              - paragraph [ref=e601]: Vous avez les cheveux bouclés, frisés ou crépus et vous rêvez d’une chevelure lisse et souple, qui dure dans le temps ? Optez pour le défrisage dont votre coiffeur maîtrise parfaitement la technique ou pour le lissage brésilien qui a l’avantage d’être une méthode plus douce et moins définitive pour obtenir des cheveux raides et brillants.
+                              - paragraph [ref=e602]: Situé à Créteil, en Île-de-France, le salon de coiffure Coiff’Ethnic met à votre service son équipe d’experts en extensions de cheveux et techniques de lissage pour répondre à toutes les envies et garantir un rendu professionnel pour des cheveux en bonne santé.
+                    - generic [ref=e604]:
+                      - heading "Dans cet établissement" [level=2] [ref=e605]
+                      - generic [ref=e607]:
+                        - link "Coiffure femme Créteil" [ref=e608] [cursor=pointer]:
+                          - /url: /coiffeur/coiffure-femme/94000-creteil
+                        - link "Lissage et défrisage Créteil" [ref=e609] [cursor=pointer]:
+                          - /url: /coiffeur/lissage-et-defrisage/94000-creteil
+                        - link "Coiffure homme Créteil" [ref=e610] [cursor=pointer]:
+                          - /url: /coiffeur/coiffure-homme/94000-creteil
+                        - link "Balayage / mèches Créteil" [ref=e611] [cursor=pointer]:
+                          - /url: /coiffeur/balayage-meches/94000-creteil
+                        - link "Barber Créteil" [ref=e612] [cursor=pointer]:
+                          - /url: /barbier/94000-creteil
+              - complementary [ref=e614]:
+                - generic [ref=e615]:
+                  - generic [ref=e619]:
+                    - generic [ref=e621]:
+                      - button "Note globale" [ref=e622] [cursor=pointer]
+                      - button "Avis" [ref=e623] [cursor=pointer]
+                    - generic [ref=e626]:
+                      - generic [ref=e628]: 4,7
+                      - generic [ref=e629]:
+                        - list [ref=e630]:
+                          - listitem [ref=e631]:
+                            - text: Accueil
+                            - generic [ref=e632]:
+                              - text: 4,7
+                              - img [ref=e634]
+                          - listitem [ref=e636]:
+                            - text: Propreté
+                            - generic [ref=e637]:
+                              - text: 4,7
+                              - img [ref=e639]
+                          - listitem [ref=e641]:
+                            - text: Cadre & Ambiance
+                            - generic [ref=e642]:
+                              - text: 4,7
+                              - img [ref=e644]
+                          - listitem [ref=e646]:
+                            - text: Qualité de la prestation
+                            - generic [ref=e647]:
+                              - text: 4,8
+                              - img [ref=e649]
+                        - text: 419 clients ont donné leur avis
+                  - generic [ref=e652]:
+                    - heading "Horaires d'ouverture" [level=2] [ref=e653]
+                    - list [ref=e655]:
+                      - listitem [ref=e656]:
+                        - generic [ref=e657]: Lundi
+                        - generic [ref=e659]: 10:00 - 19:00
+                      - listitem [ref=e660]:
+                        - generic [ref=e661]: Mardi
+                        - generic [ref=e663]: 10:00 - 19:00
+                      - listitem [ref=e664]:
+                        - generic [ref=e665]: Mercredi
+                        - generic [ref=e667]: 10:00 - 19:00
+                      - listitem [ref=e668]:
+                        - generic [ref=e669]: Jeudi
+                        - generic [ref=e671]: 10:00 - 19:00
+                      - listitem [ref=e672]:
+                        - generic [ref=e673]: Vendredi
+                        - generic [ref=e675]: 10:00 - 19:00
+                      - listitem [ref=e676]:
+                        - generic [ref=e677]: Samedi
+                        - generic [ref=e679]: 10:00 - 19:00
+                      - listitem [ref=e680]:
+                        - generic [ref=e681]: Dimanche
+                        - generic [ref=e683]: 10:00 - 19:00
+      - navigation [ref=e686]:
+        - link "Coiffeur Créteil" [ref=e689] [cursor=pointer]:
+          - /url: /coiffeur/94000-creteil
+          - generic [ref=e690]: Coiffeur Créteil
+        - generic [ref=e691]:
+          - img [ref=e693]
+          - generic [ref=e696]: Coiff’Ethnik
+      - contentinfo [ref=e697]:
+        - generic [ref=e698]:
+          - navigation [ref=e699]:
+            - generic [ref=e700]:
+              - img [ref=e701]
+              - generic [ref=e703]:
+                - button [ref=e704] [cursor=pointer]:
+                  - img [ref=e706]
+                - button [ref=e708] [cursor=pointer]:
+                  - img [ref=e710]
+            - generic [ref=e713]:
+              - generic [ref=e714]: À propos de Planity
+              - list [ref=e715]:
+                - listitem [ref=e716]:
+                  - link "Je suis un professionnel de beauté" [ref=e717] [cursor=pointer]:
+                    - /url: https://info.planity.com/devenez-partenaire?utm_source=planity&utm_campaign=footer
+                - listitem [ref=e718]:
+                  - link "Rejoignez-nous" [ref=e719] [cursor=pointer]:
+                    - /url: https://careers.planity.com/
+                - listitem [ref=e720]:
+                  - link "CGU" [ref=e721] [cursor=pointer]:
+                    - /url: /mentions-legales
+                - listitem [ref=e722]:
+                  - link "Planity Belgique" [ref=e723] [cursor=pointer]:
+                    - /url: /fr-BE
+                - listitem [ref=e724]:
+                  - link "Planity Deutschland" [ref=e725] [cursor=pointer]:
+                    - /url: /de-DE
+                - listitem [ref=e726]:
+                  - link "Politique de confidentialité" [ref=e727] [cursor=pointer]:
+                    - /url: /politique-de-confidentialite
+                - listitem [ref=e728]:
+                  - link "Politique de lutte contre les contenus illicites" [ref=e729] [cursor=pointer]:
+                    - /url: /politique-de-contenu-illicite
+                - listitem [ref=e730]:
+                  - generic [ref=e731] [cursor=pointer]: Gestion des cookies
+                - listitem [ref=e732]:
+                  - 'link "Accessibilité : Partiellement conforme" [ref=e733] [cursor=pointer]':
+                    - /url: /accessibilite-non-conforme
+            - generic [ref=e734]:
+              - generic [ref=e735]: Trouvez votre prestation
+              - list [ref=e736]:
+                - listitem [ref=e737]:
+                  - link "Coiffeur" [ref=e738] [cursor=pointer]:
+                    - /url: /coiffeur
+                - listitem [ref=e739]:
+                  - link "Institut de beauté" [ref=e740] [cursor=pointer]:
+                    - /url: /institut-de-beaute
+                - listitem [ref=e741]:
+                  - link "Barbier" [ref=e742] [cursor=pointer]:
+                    - /url: /barbier
+                - listitem [ref=e743]:
+                  - link "Manucure et beauté des pieds" [ref=e744] [cursor=pointer]:
+                    - /url: /manucure-et-pedicure
+                - listitem [ref=e745]:
+                  - link "Spa" [ref=e746] [cursor=pointer]:
+                    - /url: /spa
+                - listitem [ref=e747]:
+                  - link "Massage" [ref=e748] [cursor=pointer]:
+                    - /url: /institut-de-beaute/massage
+                - listitem [ref=e749]:
+                  - link "Bien-être" [ref=e750] [cursor=pointer]:
+                    - /url: /fr-FR/bien-etre
+            - generic [ref=e751]:
+              - generic [ref=e752]: Recherches fréquentes
+              - list [ref=e753]:
+                - listitem [ref=e754]:
+                  - link "Coiffeur Paris" [ref=e755] [cursor=pointer]:
+                    - /url: /coiffeur/paris-75
+                - listitem [ref=e756]:
+                  - link "Coiffeur Bordeaux" [ref=e757] [cursor=pointer]:
+                    - /url: /coiffeur/33000-bordeaux
+                - listitem [ref=e758]:
+                  - link "Coiffeur Lyon" [ref=e759] [cursor=pointer]:
+                    - /url: /coiffeur/lyon-69
+                - listitem [ref=e760]:
+                  - link "Coiffeur Toulouse" [ref=e761] [cursor=pointer]:
+                    - /url: /coiffeur/31000-toulouse
+          - separator [ref=e762]
+          - generic [ref=e764]: Copyright © 2026 Planity
+  - generic:
+    - button "Fermer":
+      - generic:
+        - img
+  - generic:
+    - button "Fermer":
+      - generic:
+        - img
+    - generic:
+      - generic:
+        - button:
+          - generic:
+            - img
+        - button:
+          - generic:
+            - img

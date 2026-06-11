@@ -1,0 +1,375 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Prestige Barber Est. 1984 — New York" [ref=e3] [cursor=pointer]:
+      - /url: "#hero"
+      - generic [ref=e4]: Prestige Barber
+      - generic [ref=e5]: Est. 1984 — New York
+    - generic [ref=e6]:
+      - link "Services" [ref=e7] [cursor=pointer]:
+        - /url: "#services"
+      - link "L'Équipe" [ref=e8] [cursor=pointer]:
+        - /url: "#equipe"
+      - link "À Propos" [ref=e9] [cursor=pointer]:
+        - /url: "#apropos"
+      - link "Avis" [ref=e10] [cursor=pointer]:
+        - /url: "#avis"
+    - link "Prendre RDV" [ref=e11] [cursor=pointer]:
+      - /url: "#rdv"
+  - generic [ref=e12]:
+    - generic [ref=e17]:
+      - text: Open
+      - generic [ref=e18]: Walk-ins Welcome
+    - generic [ref=e19]:
+      - generic [ref=e20]: Est. 1984 — New York
+      - heading "Prestige Barber" [level=1] [ref=e21]:
+        - text: Prestige
+        - generic [ref=e22]: Barber
+      - paragraph [ref=e24]: Là où l'excellence rencontre la tradition
+      - generic [ref=e25]:
+        - link "Prendre Rendez-Vous" [ref=e26] [cursor=pointer]:
+          - /url: "#rdv"
+        - link "Voir les Services" [ref=e27] [cursor=pointer]:
+          - /url: "#services"
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: "5"
+        - generic [ref=e31]: Artistes
+      - generic [ref=e32]:
+        - generic [ref=e33]: 4.9★
+        - generic [ref=e34]: Google
+      - generic [ref=e35]:
+        - generic [ref=e36]: 40+
+        - generic [ref=e37]: Ans d'art
+      - generic [ref=e38]:
+        - generic [ref=e39]: 500+
+        - generic [ref=e40]: Clients
+    - generic [ref=e42]: Scroll
+  - generic [ref=e45]:
+    - generic [ref=e46]: Fresh Cuts
+    - generic [ref=e48]: Skin Fade
+    - generic [ref=e50]: Premium Service
+    - generic [ref=e52]: Old School
+    - generic [ref=e54]: New York Style
+    - generic [ref=e56]: Est. 1984
+    - generic [ref=e58]: Fresh Cuts
+    - generic [ref=e60]: Skin Fade
+    - generic [ref=e62]: Premium Service
+    - generic [ref=e64]: Old School
+    - generic [ref=e66]: New York Style
+    - generic [ref=e68]: Est. 1984
+  - generic [ref=e70]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]: Nos Services
+        - heading "Des prestations d'exception" [level=2] [ref=e74]:
+          - text: Des prestations
+          - emphasis [ref=e75]: d'exception
+      - paragraph [ref=e76]: Des services de toilettage haut de gamme, réalisés avec précision et soin par nos maîtres barbiers.
+    - generic [ref=e77]:
+      - generic [ref=e78] [cursor=pointer]:
+        - generic [ref=e79]: "01"
+        - generic [ref=e80]: Coupe + Fade
+        - generic [ref=e81]: Dégradé complet avec contours ultra-précis. Notre signature depuis 1984.
+        - generic [ref=e82]:
+          - generic [ref=e83]: 20€
+          - generic [ref=e84]: 45 min
+        - button "Réserver →" [ref=e85]
+      - generic [ref=e86] [cursor=pointer]:
+        - generic [ref=e87]: "02"
+        - generic [ref=e88]: Coupe Classique
+        - generic [ref=e89]: Ciseaux et tondeuse, finitions soignées bord à bord.
+        - generic [ref=e90]:
+          - generic [ref=e91]: 15€
+          - generic [ref=e92]: 30 min
+        - button "Réserver →" [ref=e93]
+      - generic [ref=e94] [cursor=pointer]:
+        - generic [ref=e95]: "03"
+        - generic [ref=e96]: Barbe + Contours
+        - generic [ref=e97]: Taille, rasage au rasoir droit, finitions à la cire.
+        - generic [ref=e98]:
+          - generic [ref=e99]: 12€
+          - generic [ref=e100]: 25 min
+        - button "Réserver →" [ref=e101]
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]: "04"
+        - generic [ref=e104]: Combo Coupe + Barbe
+        - generic [ref=e105]: La totale. Coupe et barbe en une seule séance de luxe.
+        - generic [ref=e106]:
+          - generic [ref=e107]: 28€
+          - generic [ref=e108]: 60 min
+        - button "Réserver →" [ref=e109]
+  - generic [ref=e110]:
+    - generic [ref=e112]:
+      - generic [ref=e113]: Galerie
+      - heading "Notre savoir-faire" [level=2] [ref=e114]:
+        - text: Notre
+        - emphasis [ref=e115]: savoir-faire
+    - generic [ref=e116]:
+      - img "Barbershop" [ref=e119]
+      - img "Barber" [ref=e122]
+      - img "Barber" [ref=e125]
+      - img "Barber" [ref=e128]
+      - img "Barber" [ref=e131]
+  - generic [ref=e132]:
+    - img "Barbershop interior" [ref=e134]
+    - generic [ref=e135]:
+      - generic [ref=e136]: À Propos de Nous
+      - heading "L'art du barbier" [level=2] [ref=e137]:
+        - text: L'art du
+        - emphasis [ref=e138]: barbier
+      - paragraph [ref=e139]:
+        - text: Chez Prestige Barber, nous croyons en l'art du barbier traditionnel allié aux techniques modernes. Nos maîtres barbiers cumulent des décennies d'expérience pour vous offrir des prestations exceptionnelles dans un cadre luxueux.
+        - text: Chaque client bénéficie d'une attention personnalisée et de conseils d'experts. Nous sommes fiers de notre savoir-faire et nous nous engageons à l'excellence dans les moindres détails.
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - generic [ref=e142]: 40+
+          - generic [ref=e143]: Ans d'expérience
+        - generic [ref=e144]:
+          - generic [ref=e145]: 500+
+          - generic [ref=e146]: Clients satisfaits
+        - generic [ref=e147]:
+          - generic [ref=e148]: "5"
+          - generic [ref=e149]: Artistes experts
+        - generic [ref=e150]:
+          - generic [ref=e151]: 6j/7
+          - generic [ref=e152]: Ouvert chaque semaine
+  - generic [ref=e153]:
+    - generic [ref=e154]: Les Artistes
+    - heading "Notre équipe" [level=2] [ref=e155]:
+      - text: Notre
+      - emphasis [ref=e156]: équipe
+    - generic [ref=e157]:
+      - generic [ref=e158] [cursor=pointer]:
+        - img "Malik" [ref=e159]
+        - generic [ref=e160]:
+          - generic [ref=e161]: Malik
+          - generic [ref=e162]: Head Barber
+          - generic [ref=e163]:
+            - generic [ref=e164]: Skin Fade
+            - generic [ref=e165]: Design
+          - button "Réserver" [ref=e166]
+      - generic [ref=e167] [cursor=pointer]:
+        - img "Yanis" [ref=e168]
+        - generic [ref=e169]:
+          - generic [ref=e170]: Yanis
+          - generic [ref=e171]: Fade Specialist
+          - generic [ref=e172]:
+            - generic [ref=e173]: Low Fade
+            - generic [ref=e174]: Barbe
+          - button "Réserver" [ref=e175]
+      - generic [ref=e176] [cursor=pointer]:
+        - img "Jordan" [ref=e177]
+        - generic [ref=e178]:
+          - generic [ref=e179]: Jordan
+          - generic [ref=e180]: Style Expert
+          - generic [ref=e181]:
+            - generic [ref=e182]: Textured
+            - generic [ref=e183]: Afro
+          - button "Réserver" [ref=e184]
+      - generic [ref=e185] [cursor=pointer]:
+        - img "Amine" [ref=e186]
+        - generic [ref=e187]:
+          - generic [ref=e188]: Amine
+          - generic [ref=e189]: Beard Artist
+          - generic [ref=e190]:
+            - generic [ref=e191]: Beard
+            - generic [ref=e192]: Rasage
+          - button "Réserver" [ref=e193]
+      - generic [ref=e194] [cursor=pointer]:
+        - img "Kevin" [ref=e195]
+        - generic [ref=e196]:
+          - generic [ref=e197]: Kevin
+          - generic [ref=e198]: Classic Cuts
+          - generic [ref=e199]:
+            - generic [ref=e200]: Classic
+            - generic [ref=e201]: Kids
+          - button "Réserver" [ref=e202]
+  - generic [ref=e203]:
+    - generic [ref=e204]: Réservation
+    - heading "Planifiez votre visite" [level=2] [ref=e205]:
+      - text: Planifiez
+      - emphasis [ref=e206]: votre visite
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e210]: 📍
+          - generic [ref=e211]:
+            - generic [ref=e212]: Adresse
+            - generic [ref=e213]:
+              - text: Notre adresse
+              - text: Votre ville
+        - generic [ref=e214]:
+          - generic [ref=e215]: 📞
+          - generic [ref=e216]:
+            - generic [ref=e217]: Téléphone
+            - generic [ref=e218]: 06 00 00 00 00
+        - generic [ref=e219]:
+          - generic [ref=e220]: 🕐
+          - generic [ref=e221]:
+            - generic [ref=e222]: Horaires
+            - generic [ref=e223]:
+              - text: Mardi – Samedi
+              - text: 9h – 19h
+        - generic [ref=e224]:
+          - generic [ref=e225]: ✉️
+          - generic [ref=e226]:
+            - generic [ref=e227]: WhatsApp
+            - generic [ref=e228]:
+              - text: Confirmation sous 30 min
+              - text: Annulation 24h avant
+      - generic [ref=e229]:
+        - generic [ref=e230]: Réserver un RDV
+        - generic [ref=e236]: I — Ton coiffeur
+        - generic [ref=e237]:
+          - generic [ref=e238] [cursor=pointer]:
+            - generic [ref=e239]: Malik
+            - generic [ref=e240]: Head Barber
+          - generic [ref=e241] [cursor=pointer]:
+            - generic [ref=e242]: Yanis
+            - generic [ref=e243]: Fade Specialist
+          - generic [ref=e244] [cursor=pointer]:
+            - generic [ref=e245]: Jordan
+            - generic [ref=e246]: Style Expert
+          - generic [ref=e247] [cursor=pointer]:
+            - generic [ref=e248]: Amine
+            - generic [ref=e249]: Beard Artist
+          - generic [ref=e250] [cursor=pointer]:
+            - generic [ref=e251]: Kevin
+            - generic [ref=e252]: Classic Cuts
+          - generic [ref=e253] [cursor=pointer]:
+            - generic [ref=e254]: Dispo
+            - generic [ref=e255]: Premier dispo
+        - generic [ref=e256]: II — La prestation
+        - generic [ref=e257]:
+          - generic [ref=e258] [cursor=pointer]:
+            - generic [ref=e259]: Coupe + Fade
+            - generic [ref=e260]: 20€
+          - generic [ref=e261] [cursor=pointer]:
+            - generic [ref=e262]: Coupe Classique
+            - generic [ref=e263]: 15€
+          - generic [ref=e264] [cursor=pointer]:
+            - generic [ref=e265]: Barbe + Contours
+            - generic [ref=e266]: 12€
+          - generic [ref=e267] [cursor=pointer]:
+            - generic [ref=e268]: Combo Coupe + Barbe
+            - generic [ref=e269]: 28€
+        - generic [ref=e270]: III — Le jour
+        - generic [ref=e271]:
+          - generic [ref=e272] [cursor=pointer]:
+            - generic [ref=e273]: "10"
+            - generic [ref=e274]: Mer
+          - generic [ref=e275] [cursor=pointer]:
+            - generic [ref=e276]: "11"
+            - generic [ref=e277]: Jeu
+          - generic [ref=e278] [cursor=pointer]:
+            - generic [ref=e279]: "12"
+            - generic [ref=e280]: Ven
+          - generic [ref=e281] [cursor=pointer]:
+            - generic [ref=e282]: "13"
+            - generic [ref=e283]: Sam
+          - generic [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]: "15"
+            - generic [ref=e286]: Lun
+          - generic [ref=e287] [cursor=pointer]:
+            - generic [ref=e288]: "16"
+            - generic [ref=e289]: Mar
+          - generic [ref=e290] [cursor=pointer]:
+            - generic [ref=e291]: "17"
+            - generic [ref=e292]: Mer
+          - generic [ref=e293] [cursor=pointer]:
+            - generic [ref=e294]: "18"
+            - generic [ref=e295]: Jeu
+        - generic [ref=e296]: IV — Tes infos
+        - generic [ref=e297]:
+          - generic [ref=e298]: 📲 Enregistre-toi pour tes prochains RDV
+          - textbox "Ton prénom *" [ref=e299]
+          - textbox "Ton numéro WhatsApp *" [ref=e300]
+          - button "Enregistrer →" [ref=e302] [cursor=pointer]
+        - button "Confirmer sur WhatsApp" [ref=e303] [cursor=pointer]:
+          - img [ref=e304]
+          - text: Confirmer sur WhatsApp
+        - paragraph [ref=e306]: Confirmation sous 30 min · Annulation 24h avant
+  - generic [ref=e308]:
+    - generic [ref=e309]:
+      - generic [ref=e310]: "4.9"
+      - generic [ref=e311]: ★★★★★
+      - generic [ref=e312]: 250+ avis Google
+      - link "Laisser un avis →" [ref=e313] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e314]:
+      - generic [ref=e315]: Témoignages
+      - heading "Ils sont revenus." [level=2] [ref=e316]:
+        - text: Ils sont
+        - emphasis [ref=e317]: revenus.
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - text: "\""
+          - generic [ref=e320]: ★★★★★
+          - generic [ref=e321]: "\"Malik c'est le meilleur dans le secteur, pas de débat. Mon fade tient une semaine. Je fais 30 km juste pour lui.\""
+          - generic [ref=e322]: Karim D.
+          - generic [ref=e323]: Coiffé par Malik
+        - generic [ref=e324]:
+          - text: "\""
+          - generic [ref=e325]: ★★★★★
+          - generic [ref=e326]: "\"L'ambiance du shop c'est une autre vibe. On se sent dans un vrai barbershop de New York.\""
+          - generic [ref=e327]: Mehdi S.
+          - generic [ref=e328]: Coiffé par Yanis
+        - generic [ref=e329]:
+          - text: "\""
+          - generic [ref=e330]: ★★★★★
+          - generic [ref=e331]: "\"Amine pour la barbe c'est un artiste. Jamais eu une barbe aussi propre. Client à vie.\""
+          - generic [ref=e332]: Bilal T.
+          - generic [ref=e333]: Coiffé par Amine
+  - contentinfo [ref=e334]:
+    - generic: Prestige
+    - generic [ref=e335]:
+      - generic [ref=e336]: Prestige Barber
+      - generic [ref=e337]: Est. 1984 — L'excellence rencontre la tradition
+      - generic [ref=e338]:
+        - generic [ref=e339]:
+          - generic [ref=e340]: Contact
+          - generic [ref=e341]:
+            - text: 📍
+            - strong [ref=e342]: Notre adresse · Votre ville
+          - generic [ref=e343]:
+            - text: 📞
+            - strong [ref=e344]: 06 00 00 00 00
+          - generic [ref=e345]:
+            - text: 🕐
+            - strong [ref=e346]: Mar–Sam · 9h – 19h
+        - generic [ref=e347]:
+          - generic [ref=e348]: L'Équipe
+          - generic [ref=e349]:
+            - strong [ref=e350]: Malik
+            - text: · Head Barber
+          - generic [ref=e351]:
+            - strong [ref=e352]: Yanis
+            - text: · Fade Specialist
+          - generic [ref=e353]:
+            - strong [ref=e354]: Jordan
+            - text: · Style Expert
+          - generic [ref=e355]:
+            - strong [ref=e356]: Amine
+            - text: · Beard Artist
+          - generic [ref=e357]:
+            - strong [ref=e358]: Kevin
+            - text: · Classic Cuts
+        - generic [ref=e359]:
+          - generic [ref=e360]: Réserver
+          - generic [ref=e361]:
+            - link "Prendre RDV →" [ref=e362] [cursor=pointer]:
+              - /url: "#rdv"
+            - link "⭐ Laisser un avis" [ref=e363] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=e364]:
+      - generic [ref=e365]: © 2025 Prestige Barber — Est. 1984
+      - generic [ref=e366]: fait avec 💈
+  - generic:
+    - generic:
+      - generic: RDV confirmé
+    - generic:
+      - generic: Karim
+      - generic:
+        - text: vient de réserver avec
+        - strong: Malik
+      - generic: il y a 4 min

@@ -1,0 +1,54 @@
+- generic [ref=e24]:
+  - generic [ref=e25]:
+    - banner [ref=e27]:
+      - generic [ref=e28]:
+        - link [ref=e29] [cursor=pointer]:
+          - /url: /
+          - img [ref=e30]
+        - generic [ref=e32]:
+          - button "Je suis un professionnel de beauté" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: Je suis un professionnel de beauté
+          - button "Mon compte" [ref=e35] [cursor=pointer]:
+            - img [ref=e37]
+            - generic [ref=e40]: Mon compte
+    - generic [ref=e41]:
+      - main [ref=e42]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e49]
+            - generic [ref=e62]
+          - generic [ref=e92]:
+            - generic [ref=e93]
+            - generic [ref=e98]
+      - navigation [ref=e686]:
+        - link "Coiffeur Créteil" [ref=e689] [cursor=pointer]:
+          - /url: /coiffeur/94000-creteil
+          - generic [ref=e690]: Coiffeur Créteil
+        - generic [ref=e691]:
+          - img [ref=e693]
+          - generic [ref=e696]: Coiff’Ethnik
+      - contentinfo [ref=e697]:
+        - generic [ref=e698]:
+          - navigation [ref=e699]:
+            - generic [ref=e700]
+            - generic [ref=e713]
+            - generic [ref=e734]
+            - generic [ref=e751]
+          - separator [ref=e762]
+          - generic [ref=e764]: Copyright © 2026 Planity
+  - generic:
+    - button "Fermer":
+      - generic:
+        - img
+  - generic:
+    - button "Fermer":
+      - generic:
+        - img
+    - generic:
+      - generic:
+        - button:
+          - generic:
+            - img
+        - button:
+          - generic:
+            - img
