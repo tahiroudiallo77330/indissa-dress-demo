@@ -11,6 +11,7 @@ export function ProductClient({ product }: { product: ShopifyProduct }) {
   const [activeImage, setActiveImage] = useState(0);
   const [qty, setQty] = useState(1);
   const [openAccordion, setOpenAccordion] = useState<string | null>(null);
+  const [showSizeGuide, setShowSizeGuide] = useState(false);
   const { addItem } = useCart();
 
   const variant = product.variants[selectedSize] ?? product.variants[0];
@@ -43,6 +44,7 @@ export function ProductClient({ product }: { product: ShopifyProduct }) {
   const thumbImages = hasImages ? product.images.slice(0, 4) : [null, null, null];
 
   return (
+    <>
     <main className="bg-[#fef9f1] pt-[72px]">
 
       {/* ── Layout 3 colonnes ──────────────────────────────── */}
@@ -113,7 +115,10 @@ export function ProductClient({ product }: { product: ShopifyProduct }) {
             <div className="mb-6">
               <div className="flex items-center justify-between mb-3">
                 <p className="text-[10px] uppercase tracking-[0.2em] text-[#1d1c17]">Taille (FR)</p>
-                <button className="text-[10px] uppercase tracking-[0.15em] text-[#747878] border-b border-[#747878] pb-0.5 hover:text-[#1d1c17] hover:border-[#1d1c17] transition-colors">
+                <button
+                  onClick={() => setShowSizeGuide(true)}
+                  className="text-[10px] uppercase tracking-[0.15em] text-[#747878] border-b border-[#747878] pb-0.5 hover:text-[#1d1c17] hover:border-[#1d1c17] transition-colors"
+                >
                   Guide des tailles
                 </button>
               </div>
@@ -273,5 +278,60 @@ export function ProductClient({ product }: { product: ShopifyProduct }) {
       </section>
 
     </main>
+
+      {/* ── Modale Guide des Tailles ───────────────────────── */}
+      {showSizeGuide && (
+        <div
+          className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center px-4"
+          onClick={() => setShowSizeGuide(false)}
+        >
+          <div
+            className="bg-white max-w-[560px] w-full p-10 relative"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowSizeGuide(false)}
+              className="absolute top-5 right-5 text-[#747878] hover:text-[#1d1c17] transition-colors"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M18 6L6 18M6 6l12 12"/>
+              </svg>
+            </button>
+            <p className="text-[10px] uppercase tracking-[0.3em] text-[#c4a882] mb-3">Indissa Dress Paris</p>
+            <h3 className="font-serif text-[22px] text-[#1d1c17] mb-6">Guide des Tailles</h3>
+            <table className="w-full text-[12px] text-[#1d1c17] border-collapse mb-6">
+              <thead>
+                <tr className="border-b border-[#e7e2da]">
+                  <th className="text-left py-2 text-[10px] uppercase tracking-[0.2em] text-[#747878] font-normal">Taille FR</th>
+                  <th className="text-left py-2 text-[10px] uppercase tracking-[0.2em] text-[#747878] font-normal">Poitrine (cm)</th>
+                  <th className="text-left py-2 text-[10px] uppercase tracking-[0.2em] text-[#747878] font-normal">Taille (cm)</th>
+                  <th className="text-left py-2 text-[10px] uppercase tracking-[0.2em] text-[#747878] font-normal">Hanches (cm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["34", "82", "63", "88"],
+                  ["36", "86", "66", "92"],
+                  ["38", "90", "70", "96"],
+                  ["40", "94", "74", "100"],
+                  ["42", "98", "78", "104"],
+                  ["44", "102", "82", "108"],
+                ].map(([fr, p, t, h]) => (
+                  <tr key={fr} className="border-b border-[#f0ebe3]">
+                    <td className="py-3 font-medium">{fr}</td>
+                    <td className="py-3">{p}</td>
+                    <td className="py-3">{t}</td>
+                    <td className="py-3">{h}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p className="text-[11px] text-[#747878] leading-relaxed">
+              Toutes nos robes sont réalisées sur mesure. Ces tailles sont indicatives — vos mensurations exactes seront prises lors de la consultation en atelier.
+            </p>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
