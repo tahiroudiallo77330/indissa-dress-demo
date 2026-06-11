@@ -4,6 +4,7 @@ import { Footer } from "@/components/site/Footer";
 import { Newsletter } from "@/components/site/Newsletter";
 import { getProducts } from "@/lib/shopify";
 import Link from "next/link";
+import Image from "next/image";
 
 export const revalidate = 300;
 
@@ -40,10 +41,12 @@ export default async function Home() {
                   <div key={p.id} className="stagger-item group" data-delay={String(i * 0.15)}>
                     <Link href={`/products/${p.handle}`} className="block relative overflow-hidden aspect-[3/4] mb-4 bg-[#ede8e0]">
                       {p.images[0] ? (
-                        <img
+                        <Image
                           src={p.images[0].src}
                           alt={p.images[0].alt ?? p.title}
-                          className="w-full h-full object-cover transition duration-700 group-hover:scale-[1.04]"
+                          fill
+                          sizes="(max-width: 768px) 50vw, 33vw"
+                          className="object-cover transition duration-700 group-hover:scale-[1.04]"
                         />
                       ) : (
                         <div className="w-full h-full flex items-center justify-center">

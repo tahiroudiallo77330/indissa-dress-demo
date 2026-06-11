@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ShopifyProduct, formatPrice } from "@/lib/shopify";
 import { useCart } from "@/components/site/CartContext";
 
@@ -63,7 +64,7 @@ export function ProductClient({ product }: { product: ShopifyProduct }) {
                   } ${!img ? "bg-[#e8e3db] flex items-center justify-center cursor-default" : ""}`}
                 >
                   {img
-                    ? <img src={img.src} alt="" className="w-full h-full object-cover" />
+                    ? <Image src={img.src} alt="" fill sizes="110px" className="object-cover" />
                     : <span className="font-serif text-[1rem] text-[#b8b0a4] select-none">ID</span>
                   }
                 </button>
@@ -76,7 +77,7 @@ export function ProductClient({ product }: { product: ShopifyProduct }) {
             <div className="sticky top-[72px]">
               <div className="relative aspect-[3/4] overflow-hidden bg-[#e8e3db]">
                 {image ? (
-                  <img src={image.src} alt={image.alt ?? product.title} className="w-full h-full object-cover" />
+                  <Image src={image.src} alt={image.alt ?? product.title} fill priority sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">
                     <span className="font-serif text-[8rem] text-[#ccc6be] select-none">ID</span>
@@ -242,7 +243,7 @@ export function ProductClient({ product }: { product: ShopifyProduct }) {
           {product.images.length > 1
             ? product.images.slice(1, 3).map((img, i) => (
                 <div key={i} className="aspect-[3/4] overflow-hidden bg-[#e8e3db]">
-                  <img src={img.src} alt={img.alt ?? ""} className="w-full h-full object-cover" />
+                  <Image src={img.src} alt={img.alt ?? ""} fill sizes="(max-width: 768px) 50vw, 40vw" className="object-cover" />
                 </div>
               ))
             : [0, 1].map((i) => (
