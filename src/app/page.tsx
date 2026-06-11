@@ -34,23 +34,41 @@ export default async function Home() {
             </Link>
           </div>
 
-          {/* Grille placeholder — à remplacer par ProductCard quand les vraies robes sont dans Shopify */}
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 stagger-group">
-            {[
-              { name: "Robe Céleste", matiere: "Soie duchesse & dentelle" },
-              { name: "Robe Aurore", matiere: "Crêpe de soie & broderie" },
-              { name: "Robe Lumière", matiere: "Organza & fil d'or" },
-            ].map((item, i) => (
-              <div key={item.name} className="stagger-item group" data-delay={String(i * 0.15)}>
-                <Link href="/collections" className="block relative overflow-hidden aspect-[3/4] mb-4 bg-[#ede8e0] flex items-center justify-center">
-                  <div className="w-full h-full flex items-center justify-center">
-                    <span className="font-serif text-[5rem] text-[#d5cfc7] select-none">ID</span>
+            {products.length > 0
+              ? products.map((p, i) => (
+                  <div key={p.id} className="stagger-item group" data-delay={String(i * 0.15)}>
+                    <Link href={`/products/${p.handle}`} className="block relative overflow-hidden aspect-[3/4] mb-4 bg-[#ede8e0]">
+                      {p.images[0] ? (
+                        <img
+                          src={p.images[0].src}
+                          alt={p.images[0].alt ?? p.title}
+                          className="w-full h-full object-cover transition duration-700 group-hover:scale-[1.04]"
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center">
+                          <span className="font-serif text-[5rem] text-[#d5cfc7] select-none">ID</span>
+                        </div>
+                      )}
+                    </Link>
+                    <h3 className="font-serif text-[15px] text-[var(--ink)] mb-1">{p.title}</h3>
+                    <p className="text-[12px] text-[var(--muted)] italic">Création sur mesure</p>
                   </div>
-                </Link>
-                <h3 className="font-serif text-[15px] text-[var(--ink)] mb-1">{item.name}</h3>
-                <p className="text-[12px] text-[var(--muted)] italic">{item.matiere}</p>
-              </div>
-            ))}
+                ))
+              : [
+                  { name: "Robe Céleste", matiere: "Soie duchesse & dentelle" },
+                  { name: "Robe Aurore", matiere: "Crêpe de soie & broderie" },
+                  { name: "Robe Lumière", matiere: "Organza & fil d'or" },
+                ].map((item, i) => (
+                  <div key={item.name} className="stagger-item group" data-delay={String(i * 0.15)}>
+                    <Link href="/collections" className="block relative overflow-hidden aspect-[3/4] mb-4 bg-[#ede8e0] flex items-center justify-center">
+                      <span className="font-serif text-[5rem] text-[#d5cfc7] select-none">ID</span>
+                    </Link>
+                    <h3 className="font-serif text-[15px] text-[var(--ink)] mb-1">{item.name}</h3>
+                    <p className="text-[12px] text-[var(--muted)] italic">{item.matiere}</p>
+                  </div>
+                ))
+            }
           </div>
         </section>
 
