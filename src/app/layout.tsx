@@ -139,13 +139,11 @@ const jsonLd = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={`${playfair.variable} ${inter.variable}`}>
-      <head>
+      <body>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
-      <body>
         <CartProvider store={process.env.NEXT_PUBLIC_SHOPIFY_STORE ?? "1r1nmp-gi.myshopify.com"}>
           <AnimationsProvider />
           <CartDrawer />
