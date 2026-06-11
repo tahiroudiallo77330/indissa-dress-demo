@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useCart } from "./CartContext";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
@@ -55,7 +56,9 @@ export function Header({ logo = "circle" }: { logo?: HeaderLogo }) {
         <div className="max-w-[1440px] mx-auto px-8 h-[72px] flex items-center justify-between relative">
           <Hamburger />
           <Link href="/" className="absolute left-1/2 -translate-x-1/2">
-            <span className="font-serif text-[1.6rem] tracking-[0.08em] text-[#1d1c17]">INDISSA</span>
+            <div className="w-[52px] h-[52px] rounded-full overflow-hidden">
+              <Image src="/logo-indissa.png" alt="Indissa Dress Paris" width={52} height={52} className="w-full h-full object-cover object-[50%_30%]" />
+            </div>
           </Link>
           <div className="flex items-center gap-8">
             <nav className="hidden md:flex items-center gap-8">
@@ -99,8 +102,8 @@ export function Header({ logo = "circle" }: { logo?: HeaderLogo }) {
           </nav>
         </div>
         <Link href="/" className="absolute left-1/2 -translate-x-1/2">
-          <div className="w-[52px] h-[52px] rounded-full border border-[#1d1c17] flex items-center justify-center hover:border-[#c4a882] transition-colors group">
-            <span className="font-serif text-[13px] tracking-[0.06em] text-[#1d1c17] group-hover:text-[#c4a882] transition-colors">ID</span>
+          <div className="w-[52px] h-[52px] rounded-full overflow-hidden hover:opacity-80 transition-opacity">
+            <Image src="/logo-indissa.png" alt="Indissa Dress Paris" width={52} height={52} className="w-full h-full object-cover object-[50%_30%]" />
           </div>
         </Link>
         <div className="flex items-center gap-9">
